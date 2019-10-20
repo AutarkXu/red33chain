@@ -1,0 +1,22 @@
+{
+  "name": "33red",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deployBasicByTronWeb.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@33cn/wallet-base": "^1.0.2",
+    "bluebird": "^3.5.5",
+    "fs": "0.0.1-security",
+    "request": "^2.88.0",
+    "tronweb": "^2.1.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
