@@ -1,3 +1,6 @@
+/**
+ * 合约部署脚本，安装node环境
+ * */
 let httpClient = require('./httpclient');
 let wallet33 = require('./wallet');
 let fs = require('fs');

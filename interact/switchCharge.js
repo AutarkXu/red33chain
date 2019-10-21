@@ -1,3 +1,6 @@
+/**
+ * 合约开启脚本，安装node环境
+ * */
 let httpClient = require('./httpclient');
 let wallet33 = require('./wallet');
 let walletLib = require('@33cn/wallet-base');
