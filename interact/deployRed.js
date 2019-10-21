@@ -69,3 +69,4 @@ async function createContract() {
 }
 
 createContract()
+
