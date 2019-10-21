@@ -1,14 +1,7 @@
 let httpClient = require('./httpclient');
 let wallet33 = require('./wallet');
-let fs = require('fs');
 let walletLib = require('@33cn/wallet-base');
 let config = require('../config');
-
-async function getAbi() {
-    let data = fs.readFileSync('../build/contracts/Basic.json');
-    // console.log(data.toString());
-    return JSON.parse(data.toString())['abi']
-}
 
 async function sendTx(tx) {
     let postData = {
